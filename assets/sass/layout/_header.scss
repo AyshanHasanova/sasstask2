@@ -1,0 +1,58 @@
+header{
+    padding: 30px 50px 10px 50px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+    background-image: url('https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp');
+    width: 1628px;
+    height: 763px;
+
+
+    
+
+}
+
+.header_left{
+    display: flex;
+    margin-bottom: 600px;
+   
+}
+.header_left .links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px ;
+    margin-left: 80px;
+    
+}
+.header_left .links ul a{
+    color: black;
+}
+.header_left .button button{
+   margin-top: 45px;
+   margin-right: 20PX;
+   width: 190px;
+   height: 55px;
+   background-color: orange;
+   border: none;
+   
+}
+header nav .nav_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+
+}
+header nav .nav_head a{
+    color: black;
+}
+header nav .nav_head .fa-user{
+    padding: 22px;
+    background-color: orange;
+    border-radius: 50%;
+    color: white;
+}
